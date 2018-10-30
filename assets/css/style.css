@@ -1,0 +1,61 @@
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 2;
+}
+header {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+header nav {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 20px 10px;
+    border-right: 1px solid rgba(0, 0, 0, .30);
+}
+
+.header-title {
+    float: left;
+    background: rgb(149, 186, 230);
+    color: white;
+    padding: 0 10px;
+}
+
+.main-section {
+    max-width: 960px;
+    margin: 0 auto;
+    background: rgb(255, 162, 162);
+}
+
+.about-me-title {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 3px solid rgb(80, 80, 80);
+}
+
+.about-me-image {
+    float: left;
+    padding-right: 10px;
+}
+
+
