@@ -50,6 +50,7 @@ header nav {
 
 .nav li {
     display: inline;
+    border-right: 1px solid #cccccc69;
 }
 
 .nav a {
@@ -58,8 +59,10 @@ header nav {
     text-decoration: none;
     color: #777777;
     padding: 0 .5em;
-    border-right: 1px solid #cccccc69;
+    
 }
+
+
 
 .nav a:hover {
     background: #dddddd;
