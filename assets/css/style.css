@@ -165,6 +165,10 @@ header nav {
     margin: 10px 0;
 }
 
+.contact-btn:hover {
+    background: #3d8884;
+}
+
     /* PORTFOLIO*/
 /*<===============>*/
 
@@ -196,6 +200,7 @@ header nav {
     padding: 10px;
     position: relative;
 }
+
 
 /* This is for the trivia game image */
 .image-2 {
