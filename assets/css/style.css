@@ -8,7 +8,7 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 2;
     color: #777777;
-    background-image: url('../images/background.png')
+    background-image: url('../images/background.png');
 }
 
 h1 {
@@ -201,7 +201,6 @@ header nav {
     position: relative;
 }
 
-
 /* This is for the trivia game image */
 .image-2 {
     padding: 10px;
@@ -243,5 +242,4 @@ header nav {
     background: #666666;
     margin-top: 30px;
 }
-
 
